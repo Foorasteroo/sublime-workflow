@@ -18,5 +18,7 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_wrap": false,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".idea"]
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".idea"],
+	"line_padding_top" : 2,
+	"line_padding_bottom" : 2
 }
