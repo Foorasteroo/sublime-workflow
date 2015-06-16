@@ -14,7 +14,7 @@
 	"match_brackets_angle": true,
 	"show_full_path": true,
 	"tab_size": 4,
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_wrap": false,
