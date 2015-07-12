@@ -1,24 +1,24 @@
 {
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, text",
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
 	"default_line_ending": "unix",
+	"detect_indentation": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"match_brackets_angle": true,
 	"show_full_path": true,
 	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": false,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".idea"],
-	"line_padding_top" : 2,
-	"line_padding_bottom" : 2
+	"word_wrap": false
 }
