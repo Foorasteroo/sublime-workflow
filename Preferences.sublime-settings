@@ -1,24 +1,24 @@
 {
-	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, text",
-	"bold_folder_labels": true,
-	"default_line_ending": "unix",
-	"detect_indentation": true,
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
+	"bold_folder_labels": true, // false
+	"default_line_ending": "unix", // "system"
+	"detect_indentation": true, // true
+	"ensure_newline_at_eof_on_save": true, // false
+	"fade_fold_buttons": false, // true
 	"font_size": 11,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
+	"highlight_line": true, // false
+	"highlight_modified_tabs": true, // false
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"match_brackets_angle": true,
-	"show_full_path": true,
-	"tab_size": 4,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"use_tab_stops": true,
-	"word_wrap": false
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets_angle": true, // false
+	"show_full_path": false, // true
+	"tab_size": 4, // 4
+	"translate_tabs_to_spaces": false, // false
+	"trim_trailing_white_space_on_save": true, // false
+	"use_tab_stops": true, // (usable only if translate_tabs_to_spaces == true)
+	"word_wrap": "auto",
+	"indent_guide_options": ["draw_active"]
 }
