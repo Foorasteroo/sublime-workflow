@@ -1,24 +1,31 @@
 {
 	"bold_folder_labels": true, // false
 	"default_line_ending": "unix", // "system"
-	"detect_indentation": true, // true
 	"ensure_newline_at_eof_on_save": true, // false
-	"fade_fold_buttons": false, // true
-	"font_size": 11,
+	// Set to true to draw a border around the visible rectangle on the minimap.
+	// The color of the border will be determined by the "minimapBorder" key in
+	// the color scheme
+	"draw_minimap_border": true,
+	"fade_fold_buttons": false, // true,
+	"font_size": 12,
+	"font_face": "Roboto Mono",
+	// If enabled, will highlight any line with a caret
 	"highlight_line": true, // false
 	"highlight_modified_tabs": true, // false
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"match_brackets_angle": true, // false
+	// Show the full path to files in the title bar.
+	// On OS X, this value is overridden in the platform specific settings, so
+	// you'll need to place this line in your user settings to override it.
 	"show_full_path": false, // true
 	"tab_size": 4, // 4
 	"translate_tabs_to_spaces": false, // false
 	"trim_trailing_white_space_on_save": true, // false
-	"use_tab_stops": true, // (usable only if translate_tabs_to_spaces == true)
+	// If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+	// backspace insert/delete up to the next tabstop
+	"use_tab_stops": true, // (usable only if translate_tabs_to_spaces == true) default true
 	"word_wrap": "auto",
-	"indent_guide_options": ["draw_active"]
+	"indent_guide_options": ["draw_active"],
+	"caret_extra_width": 3
 }
