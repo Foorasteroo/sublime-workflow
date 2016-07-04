@@ -1,31 +1,41 @@
 {
-	"bold_folder_labels": true, // false
-	"default_line_ending": "unix", // "system"
-	"ensure_newline_at_eof_on_save": true, // false
-	// Set to true to draw a border around the visible rectangle on the minimap.
-	// The color of the border will be determined by the "minimapBorder" key in
-	// the color scheme
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 3,
+	"color_scheme": "Packages/Materialize/schemes/Material Behave.tmTheme",
+	"default_line_ending": "unix",
 	"draw_minimap_border": true,
-	"fade_fold_buttons": false, // true,
-	"font_size": 12,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"font_face": "Roboto Mono",
-	// If enabled, will highlight any line with a caret
-	"highlight_line": true, // false
-	"highlight_modified_tabs": true, // false
-	"line_padding_bottom": 5,
-	"line_padding_top": 5,
-	"match_brackets_angle": true, // false
-	// Show the full path to files in the title bar.
-	// On OS X, this value is overridden in the platform specific settings, so
-	// you'll need to place this line in your user settings to override it.
-	"show_full_path": false, // true
-	"tab_size": 4, // 4
-	"translate_tabs_to_spaces": false, // false
-	"trim_trailing_white_space_on_save": true, // false
-	// If translate_tabs_to_spaces is true, use_tab_stops will make tab and
-	// backspace insert/delete up to the next tabstop
-	"use_tab_stops": true, // (usable only if translate_tabs_to_spaces == true) default true
-	"word_wrap": "auto",
-	"indent_guide_options": ["draw_active"],
-	"caret_extra_width": 3
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"match_brackets_angle": true,
+	"show_full_path": false,
+	"tab_size": 4,
+	"theme": "Material Behave.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_wrap": "false",
+	"material_theme_tabs_autowidth" : true,
+	"material_theme_contrast_mode": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_compact_panel": true,
+	"material_theme_small_tab": true,
+	"material_theme_disable_fileicons": false,
+	"material_theme_disable_folder_animation": false,
+	"material_theme_small_statusbar": true,
+	"material_theme_disable_tree_indicator": false,
+	"material_theme_bold_tab": true,
+	"material_theme_accent_indigo": true
 }
