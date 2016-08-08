@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+}"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+{"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["shift+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["shift+alt+down"], "command": "select_lines", "args": {"forward": true} }
+]
